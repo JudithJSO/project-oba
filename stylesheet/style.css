@@ -6,14 +6,31 @@
   min-height: 100%;
   min-width: 100%;
 }
+/*Header*/
+
+.up-menu {
+  display: flex;
+  float: right;
+  height: 8em;
+  border-bottom: solid 1px #000000;
+}
+
+ul#horizontal-list-2 li {
+  color: black;
+  list-style: none;
+  display: inline;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
 .header {
   display: flex;
   row-gap: 200px;
-  height: 100%;
-  align-content: top;
+  height: 8em;
+  border-bottom: solid 1px #000000;
 }
 .logo-oba {
   box-sizing: content-box;
+  align-content: left;
 }
 
 #menu-outer {
@@ -23,18 +40,21 @@
 
 .table {
   display: table;
-  margin: 0 auto;
 }
 
-a {
+.header a {
   list-style: none;
   color: #ff0000;
+  text-decoration: none;
+  font-weight: bold;
 }
 
 ul#horizontal-list {
   min-width: 696px;
   list-style: none;
   padding-bottom: 200px;
+  display: flex;
+  gap: 3em;
 }
 ul#horizontal-list li {
   display: inline;
@@ -42,7 +62,24 @@ ul#horizontal-list li {
 button {
   border-radius: 10%;
   border: 2px solid #0000004e;
-  width: 120px;
+  width: 200px;
   height: 40px;
   background-color: #ffffff;
+}
+
+/*Body*/
+
+ul#breadcrumbs {
+  min-width: 706px;
+  list-style: none;
+  padding-bottom: 200px;
+  display: flex;
+  gap: 0.5em;
+  margin-left: -25px;
+}
+ul#breadcrumbs li {
+  display: inline;
+}
+ul#breadcrumbs a {
+  color: #0000008e;
 }
