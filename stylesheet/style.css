@@ -7,15 +7,18 @@
   min-width: 100%;
 }
 .header {
-  display: grid;
+  display: flex;
   row-gap: 200px;
+  height: 100%;
+  align-content: top;
 }
 .logo-oba {
-  border: 10px, black;
+  box-sizing: content-box;
 }
 
 #menu-outer {
   height: 84px;
+  padding-bottom: 200px;
 }
 
 .table {
@@ -23,11 +26,23 @@
   margin: 0 auto;
 }
 
+a {
+  list-style: none;
+  color: #ff0000;
+}
+
 ul#horizontal-list {
   min-width: 696px;
   list-style: none;
-  padding-top: 20px;
+  padding-bottom: 200px;
 }
 ul#horizontal-list li {
   display: inline;
+}
+button {
+  border-radius: 10%;
+  border: 2px solid #0000004e;
+  width: 120px;
+  height: 40px;
+  background-color: #ffffff;
 }
