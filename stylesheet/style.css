@@ -1,6 +1,5 @@
 * {
   box-sizing: border-box;
-  color: #ffffff;
 }
 .html {
   min-height: 100%;
@@ -69,6 +68,11 @@ button {
 
 /*Body*/
 
+body {
+  line-height: 25px;
+  color: #000000;
+}
+
 ul#breadcrumbs {
   min-width: 706px;
   list-style: none;
@@ -82,4 +86,66 @@ ul#breadcrumbs li {
 }
 ul#breadcrumbs a {
   color: #0000008e;
+}
+
+/* Mijn krankzinnige idee om een calender te copy-pasten van internet */
+
+element.style {
+  display: block;
+}
+#datepicker {
+  display: block;
+}
+.ui-datepicker {
+  width: 100%;
+  font-size: 19px;
+  margin-top: 5px;
+  text-align: center;
+}
+.ui-datepicker-calendar {
+  clear: both;
+  margin: auto;
+}
+.ui-datepicker-calendar th {
+  font-size: 1em;
+  height: 35px;
+}
+th {
+  display: table-cell;
+  vertical-align: inherit;
+  font-weight: bold;
+  text-align: -internal-center;
+  color: #000000;
+}
+
+.ui-datepicker-calendar {
+  color: black;
+}
+
+table {
+  display: table;
+  border-collapse: separate;
+  box-sizing: border-box;
+  text-indent: initial;
+  border-spacing: 2px;
+  border-color: #999999;
+  color: #000000;
+  line-height: 25px;
+  margin-left: 52.2px;
+  margin-right: 52.2px;
+  text-align: center;
+  -webkit-border-horizontal-spacing: 2px;
+  -webkit-border-vertical-spacing: 2px;
+}
+
+tbody {
+  display: table-row-group;
+  vertical-align: middle;
+  border-color: inherit;
+}
+
+tr {
+  display: table-row;
+  vertical-align: inherit;
+  border-color: inherit;
 }
