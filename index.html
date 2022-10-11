@@ -27,17 +27,23 @@
           <div class="table">
             <ul id="horizontal-list">
               <li>
-                <button id="mijn-bibliotheek">
-                  <a href="#">Mijn bibliotheek</a>
-                </button>
+                <div class="header_nav">
+                  <button id="mijn-bibliotheek">
+                    <a href="#">Mijn bibliotheek</a>
+                  </button>
+                </div>
               </li>
               <li>
-                <button id="persoonlijke-gegevens">
-                  <a href="#">Persoonlijke gegevens</a>
-                </button>
+                <div class="header_nav">
+                  <button id="persoonlijke-gegevens">
+                    <a href="#">Persoonlijke gegevens</a>
+                  </button>
+                </div>
               </li>
               <li>
-                <button id="contact"><a href="#">Contact</a></button>
+                <div class="header_nav">
+                  <button id="contact"><a href="#">Contact</a></button>
+                </div>
               </li>
             </ul>
           </div>
@@ -51,213 +57,85 @@
       <li><a href="#">Mijn Bibliotheek</a></li>
       <li><a href="#">/ Reserveren</a></li>
     </ul>
+    <div class="content-table">
+      <div class="month-header">
+        <a class="left" href="#">◄</a>
+        <a class="right" href="#">►</a>
+        <h2>Oktober</h2>
+      </div>
+      <div class="container">
+        <table class="table-responsive" table-responsive>
+          <tr>
+            <th class="inactive">26</th>
+            <th class="inactive">27</th>
+            <th class="inactive">28</th>
+            <th class="inactive">29</th>
+            <th class="inactive">30</th>
+            <th class="inactive">1</th>
+            <th class="inactive">2</th>
+          </tr>
 
-    <div
-      class="ui-datepicker-inline ui-datepicker ui-widget ui-widget-content ui-helper-clearfix ui-corner-all"
-      style="display: block">
-      <div
-        class="ui-datepicker-header ui-widget-header ui-helper-clearfix ui-corner-all">
-        <a
-          class="ui-datepicker-prev ui-corner-all ui-state-disabled"
-          title="<i title='' class='fa fa-arrow-left 1x'></i>">
-          <span class="ui-icon ui-icon-circle-triangle-w"
-            ><i title="" class="fa fa-arrow-left 1x"></i></span
-        ></a>
-        <a
-          class="ui-datepicker-next ui-corner-all"
-          data-handler="next"
-          data-event="click"
-          title="<i title='' class='fa fa-arrow-right 1x'></i>">
-          <span class="ui-icon ui-icon-circle-triangle-e"
-            ><i title="" class="fa fa-arrow-right 1x"></i></span
-        ></a>
-        <div class="ui-datepicker-title">
-          <span class="ui-datepicker-month">september</span>&nbsp;<span
-            class="ui-datepicker-year"
-            >2022</span
-          >
+          <tr>
+            <td class="inactive">3</td>
+            <td class="inactive">4</td>
+            <td class="inactive">5</td>
+            <td class="inactive">6</td>
+            <td class="inactive">7</td>
+            <td class="inactive">8</td>
+            <td class="inactive">9</td>
+          </tr>
+
+          <tr>
+            <td class="inactive">10</td>
+            <td class="full">11</td>
+            <td class="last-places-available">12</td>
+            <td class="last-places-available">13</td>
+            <td class="free-availability">14</td>
+            <td class="free-availability">15</td>
+            <td class="free-availability">16</td>
+          </tr>
+          <tr>
+            <td class="free-availability">17</td>
+            <td class="free-availability">18</td>
+            <td class="free-availability">19</td>
+            <td class="free-availability">20</td>
+            <td class="free-availability">21</td>
+            <td class="free-availability">22</td>
+            <td class="free-availability">23</td>
+          </tr>
+          <tr>
+            <td class="free-availability">24</td>
+            <td class="free-availability">25</td>
+            <td class="free-availability">26</td>
+            <td class="free-availability">27</td>
+            <td class="free-availability">28</td>
+            <td class="free-availability">29</td>
+            <td class="free-availability">30</td>
+          </tr>
+          <tr>
+            <td class="free-availability">31</td>
+            <td class="next-month">1</td>
+            <td class="next-month">2</td>
+            <td class="next-month">3</td>
+            <td class="next-month">4</td>
+            <td class="next-month">5</td>
+            <td class="next-month">6</td>
+          </tr>
+        </table>
+        <div class="next">
+          <button class="volgende">Volgende</button>
         </div>
       </div>
-      <table class="ui-datepicker-calendar">
-        <thead>
-          <tr>
-            <th class="ui-datepicker-week-end">
-              <span title="zondag">zo</span>
-            </th>
-            <th><span title="maandag">ma</span></th>
-            <th>
-              <span title="dinsdag">di</span>
-            </th>
-            <th>
-              <span title="woensdag">wo</span>
-            </th>
-            <th><span title="donderdag">do</span></th>
-            <th><span title="vrijdag">vr</span></th>
-            <th class="ui-datepicker-week-end">
-              <span title="zaterdag">za</span>
-            </th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td
-              class="ui-datepicker-week-end ui-datepicker-other-month ui-datepicker-unselectable ui-state-disabled">
-              &nbsp;
-            </td>
-            <td
-              class="ui-datepicker-other-month ui-datepicker-unselectable ui-state-disabled">
-              &nbsp;
-            </td>
-            <td
-              class="ui-datepicker-other-month ui-datepicker-unselectable ui-state-disabled">
-              &nbsp;
-            </td>
-            <td
-              class="ui-datepicker-other-month ui-datepicker-unselectable ui-state-disabled">
-              &nbsp;
-            </td>
-            <td
-              class="ui-datepicker-unselectable ui-state-disabled NoneSlotsFree">
-              <span class="ui-state-default">1</span>
-            </td>
-            <td
-              class="ui-datepicker-unselectable ui-state-disabled NoneSlotsFree">
-              <span class="ui-state-default">2</span>
-            </td>
-            <td
-              class="ui-datepicker-week-end ui-datepicker-unselectable ui-state-disabled NoneSlotsFree">
-              <span class="ui-state-default">3</span>
-            </td>
-          </tr>
-          <tr>
-            <td
-              class="ui-datepicker-week-end ui-datepicker-unselectable ui-state-disabled NoneSlotsFree">
-              <span class="ui-state-default">4</span>
-            </td>
-            <td
-              class="ui-datepicker-unselectable ui-state-disabled NoneSlotsFree">
-              <span class="ui-state-default">5</span>
-            </td>
-            <td
-              class="ui-datepicker-unselectable ui-state-disabled NoneSlotsFree">
-              <span class="ui-state-default">6</span>
-            </td>
-            <td
-              class="ui-datepicker-unselectable ui-state-disabled NoneSlotsFree">
-              <span class="ui-state-default">7</span>
-            </td>
-            <td
-              class="ui-datepicker-unselectable ui-state-disabled NoneSlotsFree">
-              <span class="ui-state-default">8</span>
-            </td>
-            <td
-              class="ui-datepicker-unselectable ui-state-disabled NoneSlotsFree">
-              <span class="ui-state-default">9</span>
-            </td>
-            <td
-              class="ui-datepicker-week-end ui-datepicker-unselectable ui-state-disabled NoneSlotsFree">
-              <span class="ui-state-default">10</span>
-            </td>
-          </tr>
-          <tr>
-            <td
-              class="ui-datepicker-week-end ui-datepicker-unselectable ui-state-disabled NoneSlotsFree">
-              <span class="ui-state-default">11</span>
-            </td>
-            <td
-              class="ui-datepicker-unselectable ui-state-disabled NoneSlotsFree">
-              <span class="ui-state-default">12</span>
-            </td>
-            <td
-              class="ui-datepicker-unselectable ui-state-disabled NoneSlotsFree">
-              <span class="ui-state-default">13</span>
-            </td>
-            <td
-              class="ui-datepicker-unselectable ui-state-disabled NoneSlotsFree">
-              <span class="ui-state-default">14</span>
-            </td>
-            <td
-              class="ui-datepicker-unselectable ui-state-disabled NoneSlotsFree">
-              <span class="ui-state-default">15</span>
-            </td>
-            <td
-              class="ui-datepicker-unselectable ui-state-disabled NoneSlotsFree">
-              <span class="ui-state-default">16</span>
-            </td>
-            <td
-              class="ui-datepicker-week-end ui-datepicker-unselectable ui-state-disabled NoneSlotsFree">
-              <span class="ui-state-default">17</span>
-            </td>
-          </tr>
-          <tr>
-            <td
-              class="ui-datepicker-week-end ui-datepicker-unselectable ui-state-disabled NoneSlotsFree">
-              <span class="ui-state-default">18</span>
-            </td>
-            <td
-              class="ui-datepicker-unselectable ui-state-disabled NoneSlotsFree">
-              <span class="ui-state-default">19</span>
-            </td>
-            <td
-              class="ui-datepicker-unselectable ui-state-disabled NoneSlotsFree">
-              <span class="ui-state-default">20</span>
-            </td>
-            <td
-              class="ui-datepicker-unselectable ui-state-disabled NoneSlotsFree">
-              <span class="ui-state-default">21</span>
-            </td>
-            <td
-              class="ui-datepicker-unselectable ui-state-disabled NoneSlotsFree">
-              <span class="ui-state-default">22</span>
-            </td>
-            <td
-              class="ui-datepicker-unselectable ui-state-disabled NoneSlotsFree">
-              <span class="ui-state-default">23</span>
-            </td>
-            <td
-              class="ui-datepicker-week-end ui-datepicker-unselectable ui-state-disabled NoneSlotsFree">
-              <span class="ui-state-default">24</span>
-            </td>
-          </tr>
-          <tr>
-            <td
-              class="ui-datepicker-week-end ui-datepicker-unselectable ui-state-disabled NoneSlotsFree">
-              <span class="ui-state-default">25</span>
-            </td>
-            <td
-              class="ui-datepicker-unselectable ui-state-disabled NoneSlotsFree">
-              <span class="ui-state-default">26</span>
-            </td>
-            <td
-              class="ui-datepicker-unselectable ui-state-disabled NoneSlotsFree">
-              <span class="ui-state-default">27</span>
-            </td>
-            <td
-              class="ui-datepicker-unselectable ui-state-disabled NoneSlotsFree">
-              <span class="ui-state-default">28</span>
-            </td>
-            <td
-              class="ui-datepicker-unselectable ui-state-disabled NoneSlotsFree">
-              <span class="ui-state-default">29</span>
-            </td>
-            <td
-              class="ui-datepicker-days-cell-over Open ui-datepicker-current-day ui-datepicker-today"
-              data-handler="selectDay"
-              data-event="click"
-              data-month="8"
-              data-year="2022">
-              <a
-                class="ui-state-default ui-state-highlight ui-state-active ui-state-hover"
-                href="#"
-                >30</a
-              >
-            </td>
-            <td
-              class="ui-datepicker-week-end ui-datepicker-other-month ui-datepicker-unselectable ui-state-disabled">
-              &nbsp;
-            </td>
-          </tr>
-        </tbody>
+    </div>
+    <div class="time-table" timetable>
+      <table>
+        <tr>
+          <td class="early">09:30</td>
+          <td class="early">10:30</td>
+          <td class="early">11:30</td>
+          <td class="early">12:30</td>
+          <td class="early">13:30</td>
+        </tr>
       </table>
     </div>
   </body>
