@@ -89,7 +89,10 @@ ul#breadcrumbs a {
 
 /* Tafel */
 .content-table {
-  padding-bottom: 5em;
+  padding-bottom: 3em;
+}
+.month-header .container {
+  margin-right: 30%;
 }
 .container {
   position: relative;
@@ -150,6 +153,13 @@ td {
 .free-availability {
   background-color: rgba(0, 128, 0, 0.486);
 }
+.free-availability-on {
+  background-color: rgba(1, 73, 1, 0.486);
+}
+.free-availability-on a {
+  text-decoration: none;
+  color: black;
+}
 .next-month {
   background-color: rgba(65, 64, 64, 0.486);
 }
@@ -159,12 +169,20 @@ th {
 tr {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
-.next {
-  margin-top: 1em;
+/*Timetable*/
+.early {
+  margin-bottom: 3em;
 }
-
 /* button en links */
 .time-table {
-  display: flex;
+  display: none;
+  margin-left: 2.5em;
+}
+.time-table-active {
+  display: block;
+  margin-left: 2.5em;
+}
+.next {
+  margin-top: 1em;
   margin-left: 2.5em;
 }
